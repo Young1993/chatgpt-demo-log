@@ -6,13 +6,13 @@ import Generator from '../components/Generator'
 import '../message.css'
 import 'katex/dist/katex.min.css'
 import 'highlight.js/styles/atom-one-dark.css'
+import { datadogLogs } from '@datadog/browser-logs'
 ---
 
-<Layout title="ChatGPT API Demo">
+<Layout title="ChatGPT API 体验版">
   <main >
     <Header />
     <Generator client:load />
-    <Footer />
   </main>
 </Layout>
 
